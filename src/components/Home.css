@@ -1,0 +1,63 @@
+.file-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-heading{
+    padding-top: 20px;
+}
+
+.upload-btn{
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.upload-file-container{
+   margin-top: 20px; 
+   width: 100%;  
+}
+
+.noFiles{
+    margin-top: 20px;
+}
+.fileList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap : 20px;
+    justify-content: flex-start;  /* Align items to the left */
+    align-items: flex-start;  /* Align files to the top */
+    margin: 10px;
+}
+.file{
+    width: 300px;
+    border: 1px solid #eeeeee;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+}
+.fileName{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.download{
+    cursor: pointer;
+    padding: 5px 5px;
+    color: black;
+}
+.logout {
+    position: absolute;
+    top:20px;
+    right:20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
